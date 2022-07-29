@@ -31,7 +31,7 @@ module.exports = class Wronglay extends Plugin {
       executor: (args) => {
         return {
             send: true,
-            result: wl_decode(args.join(" "));
+            result: wl_decode(args.join(" "))
         }
       }
     })
